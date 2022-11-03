@@ -5,7 +5,7 @@ import pandas as pd
 # after
 
 null_count = df.isnull().sum()
-null_count = null_count.reset_idex()
+null_count = null_count.reset_index()
 null_count.columns = ['collist', 'value']
 null_count.sort_values(by='value', ascending=False).head() # head value it can change
 null_count['collist'].tolist() # or .values
