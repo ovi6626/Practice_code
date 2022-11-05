@@ -1,4 +1,4 @@
-# use from JupyterNotebook ( .ipynb )
+# use from JupyterNotebook ( .ipynb ) and pandas
 # import nullval as nv <-- use this alias
 
 class null:
