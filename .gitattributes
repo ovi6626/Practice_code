@@ -1,0 +1,2 @@
+sido_area.json filter=lfs diff=lfs merge=lfs -text
+sigungu_area.json filter=lfs diff=lfs merge=lfs -text
